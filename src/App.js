@@ -280,8 +280,8 @@ function AuthScreen({ onLogin, clients, setClients }) {
                 <span onClick={()=>{setMode('forgot');setErr('');}} style={{ cursor:'pointer', textDecoration:'underline', color:'#b8962e' }}>Mot de passe oublié ?</span>
               </p>
               <div className="divider"/>
-              <p style={{ fontSize:12, color:'#bbb', textAlign:'center' }}>Démo client : <strong>sophie@demo.com</strong> / <strong>demo1234</strong></p>
-              <p style={{ fontSize:12, color:'#bbb', textAlign:'center' }}>Admin : mot de passe <strong>yoann33</strong></p>
+              <p style={{ fontSize:12, color:'#bbb', textAlign:'center' }}></p>
+              <p style={{ fontSize:12, color:'#bbb', textAlign:'center' }}></p>
             </div>
           )}
 
