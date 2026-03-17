@@ -238,7 +238,7 @@ function AuthScreen({ onLogin, clients, setClients }) {
             <div className="logo" style={{ width:60, height:60, fontSize:28, borderRadius:14 }}>Y</div>
           </div>
           <h1 className="df" style={{ fontSize:38, fontWeight:300, color:'#1a2e1a', letterSpacing:'0.02em' }}>Yoann Coach</h1>
-          <p style={{ color:'#999', fontSize:13, marginTop:8, letterSpacing:'0.06em' }}>PILATES · MÉDITATION · COACHING</p>
+          <p style={{ color:'#999', fontSize:13, marginTop:8, letterSpacing:'0.06em' }}></p>
           <p style={{ color:'#aaa', fontSize:12, marginTop:4 }}>Le 33 Fauche · Paris 16e</p>
         </div>
 
