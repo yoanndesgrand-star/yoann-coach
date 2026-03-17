@@ -393,7 +393,7 @@ function ClientView({ user, slots, bookings, onBook, onCancel, onLogout, onUpdat
       {/* Header */}
       <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:28 }}>
         <div style={{ display:'flex', alignItems:'center', gap:12 }}>
-          <div className="logo">Y</div>
+          <img src="/logo.jpg" alt="logo" style={{width:40,height:40,borderRadius:"50%",objectFit:"cover"}} />
           <div>
             <h2 className="df" style={{ fontSize:22, fontWeight:400 }}>Yoann Coach</h2>
             <p style={{ fontSize:12, color:'#888' }}>Le 33 Fauche · Paris 16e</p>
@@ -694,7 +694,7 @@ function AdminView({ slots, setSlots, bookings, clients, onAddSlot, onDeleteSlot
     <div style={{ maxWidth:920, margin:'0 auto', padding:'20px 16px' }}>
       <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:28 }}>
         <div style={{ display:'flex', alignItems:'center', gap:12 }}>
-          <div className="logo">Y</div>
+          <img src="/logo.jpg" alt="logo" style={{width:40,height:40,borderRadius:"50%",objectFit:"cover"}} />
           <div><h2 className="df" style={{ fontSize:24, fontWeight:400 }}>Dashboard Admin</h2><p style={{ fontSize:12, color:'#888' }}>Le 33 Fauche · Paris 16e</p></div>
         </div>
         <div style={{ display:'flex', gap:12, alignItems:'center' }}>
